@@ -1,27 +1,23 @@
-# ngthsang-Network-Project---Enterprise
-# Palo Alto User-ID (Agentless via WinRM)
+# 🏢 Enterprise Network Labs
 
-## 🎯 Objective
-Integrate Palo Alto firewall with Active Directory
-using agentless User-ID via WinRM.
+This repository contains hands-on enterprise networking
+and security labs built on PNETLab / EVE-NG.
 
-## 🧪 Lab Environment
-- Firewall: PA-VM (PAN-OS 11.x)
-- Windows Server 2022 (AD)
+## Objectives
+- Practice real-world enterprise network design
+- Firewall, AD, PKI integration
+- Troubleshooting & hardening
+
+## Lab Environment
+- Hypervisor: Proxmox VE
 - Emulator: PNETLab
+- Firewall: FortiGate, Palo Alto
+- OS: Windows Server 2022, Linux
 
-## 🗺️ Topology
-![Topology](topology.png)
+## Repository Structure
+- firewall/
+- switching/
+- windows/
+- scripts/
 
-## 🔧 Configuration Scope
-- Windows WinRM
-- Palo Alto User-ID settings
-- Service Account permissions
-
-## ⚠️ Issues & Troubleshooting
-- DCOM authentication error
-- Access denied during user mapping
-
-## ✅ Result
-- User-IP mapping successful
-- Policy based on AD groups working
+➡️ Each folder contains its own README and lab documentation.
